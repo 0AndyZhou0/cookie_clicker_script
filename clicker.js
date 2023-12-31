@@ -21,3 +21,10 @@ setInterval(function(){
         if (!me.isVaulted() && me.pool!='toggle' && me.pool!='tech') me.buy(1);
     }
 },100);
+
+// Click Golden Cookies
+setInterval(function(){
+    while (Game.shimmers.length > 0) {
+        Game.shimmers[0].pop();
+    }
+}, 1000);
