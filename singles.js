@@ -1,0 +1,2 @@
+// Tiny Cookie
+Game.ClickTinyCookie()
